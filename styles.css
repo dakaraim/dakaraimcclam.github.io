@@ -2,16 +2,20 @@ body,main,footer,header {
 font-family: arial, Helvetica, sans-serif;
 }
 
+
+body{
+    background-color: #0B1120;
+}
 #content{
-    background-color: #12231C;
+     background-color: #111827;
     width:80%;
     padding: 5%;
 }
 
  h1{
-color :#FACC15;
+color :#38BDF8;
 }
 
  h2, main, footer{
-color : #F5F5DC;
+color : #FFFFFF;
 }
