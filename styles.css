@@ -1,0 +1,17 @@
+body,main,footer,header {
+font-family: arial, Helvetica, sans-serif;
+}
+
+#content{
+    background-color: #12231C;
+    width:80%;
+    padding: 5%;
+}
+
+ h1{
+color :#FACC15;
+}
+
+ h2, main, footer{
+color : #F5F5DC;
+}
