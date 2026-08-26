@@ -1,0 +1,18 @@
+/*structural*/
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#content{
+    background-color: blueviolet;
+    width:80%;
+    padding: 5%;
+}
+/*NAvagation*/
+
+
+
+/*Typography*/
+h1{
+color : green;
+}
