@@ -1,0 +1,33 @@
+body,main,footer,header {
+font-family: arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-color: lightblue;
+    background:url(images/deepsea.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#content{
+     background-color: rgba(18, 35, 28, 0.5);
+    width: 75px;
+    padding: 5%;
+}
+
+img{
+border: 3px solid #ffffff;
+border-radius: 5%;
+padding: 3px;
+}
+#content{
+    width: 80%;
+}
+
+ h1{
+color :#38BDF8;
+}
+
+ h2, main,table , footer{
+color : #FFFFFF;
+}
