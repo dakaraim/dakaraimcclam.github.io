@@ -1,19 +1,21 @@
 body,main,footer,header {
 font-family: arial, Helvetica, sans-serif;
-}
 
+}
 
 body{
-    background-color: #0B1120;
+    background-color: #9A2A2A;
+      background-size: cover;
+    background-attachment: fixed;
+    background-image: url(images/carolinastadium.jpg);
 }
 #content{
-     background-color: #111827;
-    width:80%;
+     background-color: rgba(18, 35, 28, 0.5);
     padding: 5%;
 }
 
  h1{
-color :#38BDF8;
+color :#9A2A2A;
 }
 
  h2, main, footer{
