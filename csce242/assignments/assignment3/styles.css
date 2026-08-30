@@ -13,26 +13,10 @@
 
         #main-header{
         text-align: center;
-        padding: 20%;
-    }
-
-    body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin : 0;
-    }
-
-    #content{
-        background-color: #9A2A2A;
-        width:80%;
-        padding: 5%;
-    }
-
-        #main-header{
-        text-align: center;
         Color: black;
-        padding: 20%;
+        padding: 30%;
     }
-            #main-header img{
+    #main-header img{
        display: block;
         margin: 0 auto;
     }
@@ -50,21 +34,20 @@
          list-style-type: none;
             padding: 0;
             display: flex;
-            gap: 20px;
     }
 
     #main-nav li{
         flex: 1;
         text-align: center;
-        border-right: 5px black;
+        border-right: 5px white;
     }
 
     #main-nav a{
         text-decoration: none;
         display: block;
         padding: 10px;
-        color: #9A2A2A;
-    font-size: 25px;
+        color: white;
+        font-size: 25px;
     }
 
        #main-nav a:hover{
@@ -75,15 +58,15 @@
     main{
         display: flex;
         gap: 10px;
-        padding: 10px;
+        padding: 10px 0;
     }
 
     #sidebar{
-        background-color: black;
+     background-color: black;
      width: 200px;
-        padding: 10px;
+    padding: 10px;
     }
-    #sidebar h2{
+    #sidebar h3{
         color: black;
         text-align: center;
     }
@@ -179,4 +162,53 @@ footer {
     color: white;
     text-align: center;
     padding: 25px;
+}
+
+@media (max-width: 700px) {
+
+    #content {
+        width: 95%;
+    }
+
+    #main-header h1 {
+        font-size: 35px;
+    }
+
+    #main-nav ul {
+        display: block;
+    }
+
+    #main-nav li {
+        border-bottom: 1px solid white;
+    }
+
+    main {
+        display: block;
+    }
+
+    #sidebar {
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    #articles {
+        display: block;
+    }
+
+    #articles article {
+        margin-bottom: 10px;
+    }
+
+    .idea {
+        display: block;
+    }
+
+    .idea > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .idea-text {
+        padding: 20px;
+    }
 }
