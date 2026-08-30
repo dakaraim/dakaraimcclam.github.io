@@ -1,0 +1,10 @@
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin : 0;
+    }
+
+    #content{
+        background-color: #9A2A2A;
+        width:80%;
+        padding: 5%;
+    }
