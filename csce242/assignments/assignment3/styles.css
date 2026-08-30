@@ -94,55 +94,55 @@
         flex: 1;
     }
 
-    #article{
+    #articles{
     display: flex;
         gap: 10px;
     }
 
-    #article article{
+    #articles articles{
        flex: 1;
         background-color: black;
         text-align: center;
 
     }
 
-    #article h3{
+    #articles h3{
         color: white;
         text-align: center;
         margin: 0;
         padding: 10px;
     }
 
-    articles img{
+    #articles img{
         width: 300px;
         height: 300;
         object-fit: cover;
     }
 
-    #football {
+    #Football {
     margin-top: 10px;
 }
 
-.Onfield {
+.OnField {
     display: flex;
     background-color: #a9c3bd;
     margin-bottom: 10px;
     min-height: 190px;
 }
 
-.Onfield > img {
+.OnField > img {
     width: 200px;
     height: 200px;
     object-fit: cover;
 }
-.Onfield div {
+.OnField div {
     flex: 1;
     background-color: #5d8589;
     color: white;
     padding: 15px 25px;
 }
 
-.Onfield h3 {
+.OnField h3 {
     margin-top: 0;
 }
 
@@ -179,11 +179,11 @@ footer {
         margin-bottom: 10px;
     }
 
-    #article {
+    #articles {
         display: block;
     }
 
-    #article article {
+    #articles articles {
         margin-bottom: 10px;
     }
 
