@@ -6,7 +6,7 @@
 
     #content{
         background-color: #9A2A2A;
-        width:80%;
+        width: 150%;
         margin: auto;
         padding: 5%;
     }
@@ -14,7 +14,8 @@
         #main-header{
         text-align: center;
         Color: black;
-        padding: 30%;
+        padding: 30px 0 0 0;
+
     }
     #main-header img{
        display: block;
@@ -63,6 +64,7 @@
         display: flex;
         gap: 10px;
         padding: 10px 0;
+        margin: 0;
     }
 
     #sidebar{
