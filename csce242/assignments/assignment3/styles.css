@@ -28,18 +28,22 @@
 
     #main-nav{
         background-color: black;
+        margin: 0;
+        padding: 0;
     }
 
         #main-nav ul{
          list-style-type: none;
             padding: 0;
             display: flex;
+            margin: 0;
+            width: 100%;
     }
 
     #main-nav li{
         flex: 1;
         text-align: center;
-        border-right: 5px white;
+        border-right: 2px white;
     }
 
     #main-nav a{
@@ -125,7 +129,7 @@
 
 .OnField {
     display: flex;
-    background-color: #a9c3bd;
+    background-color: black;
     margin-bottom: 10px;
     min-height: 190px;
 }
@@ -137,7 +141,7 @@
 }
 .OnField div {
     flex: 1;
-    background-color: #5d8589;
+    background-color: #9A2A2A;
     color: white;
     padding: 15px 25px;
 }
