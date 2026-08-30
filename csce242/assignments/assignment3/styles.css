@@ -63,12 +63,13 @@
 
     #sidebar{
      background-color: black;
-     width: 200px;
+     width: 190px;
     padding: 10px;
     }
     #sidebar h3{
         color: black;
         text-align: center;
+        font-size: 20px;
     }
 
     #sidebar ul{
@@ -78,13 +79,15 @@
 
     #sidebar li{
         background-color: black;
-        margin-bottom: 5px;
+        border-bottom: 1px solid white;
     }
 
     #sidebar a{
         display: block;
         padding: 10px;
         color: #9A2A2A;
+        text-decoration: none;
+        text-align: center;
     }
 
     #main-content{
@@ -99,10 +102,11 @@
     #article article{
        flex: 1;
         background-color: black;
-        padding: 10px;
+        text-align: center;
+
     }
 
-    #article h2{
+    #article h3{
         color: white;
         text-align: center;
         margin: 0;
@@ -112,66 +116,50 @@
     articles img{
         width: 300px;
         height: 300;
+        object-fit: cover;
     }
 
     #football {
     margin-top: 10px;
 }
 
-.idea {
+.Onfield {
     display: flex;
     background-color: #a9c3bd;
     margin-bottom: 10px;
     min-height: 190px;
 }
 
-idea img {
+.Onfield > img {
     width: 200px;
     height: 200px;
     object-fit: cover;
 }
-.idea-text {
+.Onfield div {
     flex: 1;
     background-color: #5d8589;
     color: white;
     padding: 15px 25px;
 }
 
-.idea-text h2 {
+.Onfield h3 {
     margin-top: 0;
 }
-
-.idea-text {
-    flex: 1;
-    background-color: #5d8589;
-    color: white;
-    padding: 15px 25px;
-}
-
-.idea-text h2 {
-    margin-top: 0;
-}
-
-.idea-text p {
-    line-height: 1.4;
-}
-
 
 footer {
-    background-color: #9A2A2A;
+    background-color: black;
     color: white;
     text-align: center;
-    padding: 25px;
+    padding: 10px;
 }
 
 @media (max-width: 700px) {
-
     #content {
         width: 95%;
     }
 
     #main-header h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     #main-nav ul {
@@ -183,7 +171,7 @@ footer {
     }
 
     main {
-        display: block;
+     display: block;
     }
 
     #sidebar {
@@ -191,24 +179,24 @@ footer {
         margin-bottom: 10px;
     }
 
-    #articles {
+    #article {
         display: block;
     }
 
-    #articles article {
+    #article article {
         margin-bottom: 10px;
     }
 
-    .idea {
+    .OnField {
         display: block;
     }
 
-    .idea > img {
+    .OnField > img {
         width: 100%;
         height: auto;
     }
 
-    .idea-text {
+    .OnField div {
         padding: 20px;
     }
 }
