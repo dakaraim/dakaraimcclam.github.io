@@ -1,6 +1,24 @@
     body {
     font-family: Arial, Helvetica, sans-serif;
     margin : 0;
+    background-color: #FFFFFF;
+    }
+
+    #content{
+        background-color: #9A2A2A;
+        width:80%;
+        margin: auto;
+        padding: 5%;
+    }
+
+        #main-header{
+        text-align: center;
+        padding: 20%;
+    }
+
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin : 0;
     }
 
     #content{
@@ -13,15 +31,68 @@
         text-align: center;
         padding: 20%;
     }
-
-        #main-header img{
-         display: block;
-        margin: 20%;
+            #main-header img{
+       display: block;
+        margin: auto;
     }
-    #main-nav ul{
-        list-style-type: none;
-        padding: 0;
+    #main-header h1 { 
+        margin: 10px; 
+    }
+
+        #main-nav ul{
+         list-style-type: none;
+            padding: 0;
+            display: flex;
+         justify-content: center;
+            gap: 20px;
+    }
+
+    #main-nav a{
+        text-decoration: none;
+        color: #9A2A2A;
+        
+    }
+
+       #main-nav a:hover{
+        text-decoration: underline;
+        
+    }
+    
+    #main-content{
+    flex: 3;
+    }
+   
+    #articles{
         display: flex;
-        justify-content: center;
         gap: 20px;
+    }
+
+      #articles article{
+        flex: 1;
+        text-align: center;
+    }
+
+    #articles img{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    #Football{
+        margin-top: 40px;
+    }
+
+    .OnField{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .OnField img{
+        width: 30000%;
+        height: 200px;
+    }
+
+    .onField div{
+        flex: 1;
     }
