@@ -36,7 +36,7 @@ header h2{
 }
 
 main{
-    width: 90px;
+    width: 90%;
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -51,4 +51,21 @@ main > h2{
     margin: 15px 0 25px;
 }
 
+#assignments, #projects{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items:  stretch;
+}
+
+.assignment{
+    background-color:#dbe5f5 ;
+    padding: 15px 25px 25px;
+}
+
+.assignment h3{
+    margin: 0 0 15px;
+    font-size: 25px;
+    color: black;
+}
 
