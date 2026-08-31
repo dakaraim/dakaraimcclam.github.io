@@ -69,3 +69,30 @@ main > h2{
     color: black;
 }
 
+.assignment p{
+    margin: 0;
+    font-size:  15px;
+}
+
+.assignment img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+a{
+    color: #9A2A2A;
+    text-decoration: none;
+}
+
+#projects{
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center ;
+    color: white;
+    padding: 15px;
+}
+
