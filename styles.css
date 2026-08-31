@@ -1,6 +1,6 @@
 body,main,footer,header {
 font-family: arial, Helvetica, sans-serif;
-
+box-sizing: border-box;
 }
 
 body{
