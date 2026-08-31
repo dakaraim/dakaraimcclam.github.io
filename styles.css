@@ -3,33 +3,52 @@ font-family: arial, Helvetica, sans-serif;
 box-sizing: border-box;
 }
 
+*{
+    box-sizing: border-box;
+}
 body{
+    margin: 0;
     background-color: #9A2A2A;
       background-size: cover;
     background-attachment: fixed;
     background-image: url(images/carolinastadium.jpg);
+    background-attachment: fixed;
 }
 #content{
      background-color: rgba(18, 35, 28, 0.5);
     padding: 5%;
 }
 
- h1, footer{
-color :#9A2A2A;
+header{
+    text-align: center;
+    padding: 10px;
 }
 
- h2{
-color : #000000 ;
- }
+header h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+header h2{
+    margin: 0;
+    color:#FFFFFF
+    font-size: 30px;
+}
+
 main{
-color : #FFFFFF;
+    width: 90px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+     background-color: rgba(18, 35, 28, 0.75);
+    
 }
 
-a{
-    color: #9A2A2A;
-    text-decoration: none;
-}
-
-a:hover{
+main > h2{
     color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    margin: 15px 0 25px;
 }
+
+
