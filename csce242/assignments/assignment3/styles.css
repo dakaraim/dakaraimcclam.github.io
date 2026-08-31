@@ -6,7 +6,8 @@
 
     #content{
         background-color: #9A2A2A;
-        width: 150%;
+        width: 90%;
+        max-width: 1200px;
         margin: auto;
         padding: 5%;
     }
