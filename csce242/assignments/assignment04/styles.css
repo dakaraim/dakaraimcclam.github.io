@@ -1,0 +1,34 @@
+/*cloums for all*/
+.colums-mobile {
+display: flex;
+}
+
+
+
+
+/*footer links */
+footer-links {
+   background: #9A2A2A;
+    color: white;
+}
+
+footer-links a {
+    color: white;
+}
+
+footer-links-title {
+background: #9A2A2A;
+width: fit-content;
+margin: auto;
+
+}
+/*footer copy*/
+
+#footer-copy {
+    background: #000;
+    color: white;
+}
+
+footer-copy p {
+color: white;
+}
