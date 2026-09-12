@@ -1,5 +1,17 @@
-function showMessage() {
-    console.log{"I did it! I CLICKED THE BUTTON!"};
-}
-const binClick = document.getElementById("button-show-message");
-binClick - showMessage;
+//Shows a message when the button is clicked
+document.getElementById("btn-show-message").onclick = (e) => {
+    document.getElementById("p-message").innerHTML = "Hello World";
+    e.target.innerHTML = "done!";
+};
+
+//styles the link when it's clicked
+document.getElementById("link").onclick = (e) => {
+    e.preventDefault(); //don't go to links destination
+    e.target.classList.add("cool-link");
+};
+
+//When button clicked ball
+document.getElementById("btn-show-message").onclick = (e) => {
+    console.log("button clicked");
+    document.getElementById("ball").classList.toggle("ball");
+};
