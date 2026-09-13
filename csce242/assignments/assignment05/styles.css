@@ -82,3 +82,20 @@ select{
     text-align: center;
     color: black;
 }
+
+#sticker-area{
+    height: 200px;
+    position: relative;
+}
+
+#sun {
+    font-size: 90px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.sticker {
+    position: absolute;
+    font-size: 30px;
+}
