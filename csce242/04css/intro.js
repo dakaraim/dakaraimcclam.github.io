@@ -91,3 +91,15 @@ setInterval(()=>{
 document.querySelector("#toggle-nav").onclick = () => {
     document.querySelector("#main-nav ul").classList.toggle("hide-small");
 }
+
+//get 
+const GOAL = 10000;
+document.getElementById("bin-donation").onkeyup = (e) => {
+ const userDonation = parseInt (document.getElementById("txt-donation").value);
+ const donationP = document.getElementById("donation-message");
+ percent = userDonation / GOAL * 100;
+
+ donationP.innerHTML = `You are ${percent.toFixed(1)%} to your goal``;
+
+}
+}
