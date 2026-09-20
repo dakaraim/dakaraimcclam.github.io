@@ -121,4 +121,48 @@ body {
     color: #00a9e0;
 }
 
+footer {
+    width: 100%;
+    margin-top: 25px;
+}
 
+#footer-main {
+    min-height: 100px;
+    background-color: #009bd4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+#footer-logo {
+    width: 110px;
+    height: 80px;
+    object-fit: contain;
+}
+
+#social {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#contact {
+     font-size: 17px;
+    text-align: center;
+}
+
+#copyright {
+    background-color: #bcbcbc;
+    color: black;
+
+    text-align: center;
+
+    padding: 10px;
+
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#copyright p {
+    margin: 0;
+}
