@@ -107,6 +107,10 @@ body {
     background-color: rgba(0, 0, 0, 0.75);
     color: #FFFF;
      font-size: 35px;
+     width: 48px;
+    height: 65px;
+     top: 50%;
+    transform: translateY(-50%);
 }
 
 .left-arrow {
@@ -119,6 +123,11 @@ body {
 
 .hero-arrow:hover {
     color: #00a9e0;
+}
+
+#Content {
+    height: 600px;
+    background-color: black;
 }
 
 footer {
@@ -165,4 +174,43 @@ footer {
 
 #copyright p {
     margin: 0;
+}
+@media only screen and (max-width: 768px) {
+
+ #header-top {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    }
+
+    #logo {
+    width: 180px;
+    }
+
+#main-nav ul {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    }
+
+#main-nav li {
+    width: 100%;
+    text-align: center;
+    }
+
+#main-nav a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #222;
+    }
+
+ #hero-image {
+    height: 250px;
+    }
+#footer-main {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    }
+
 }
