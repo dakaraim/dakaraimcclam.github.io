@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: green;
+}
+
+#road {
+    width: 100%;
+    height: 140px;
+    background-color: #353535;
+    position: relative;
+    margin-top: 70px;
+
+    border-top: 5px solid #cccccc;
+    border-bottom: 5px solid #cccccc;
+
+    overflow: hidden;
+}
+
+.lane-line {
+    position: absolute;
+    top: 62px;
+    width: 100%;
+    height: 6px;
+
+    background: repeating-linear-gradient(
+        to right,
+        #ffd83d 0px,
+        #ffd83d 50px,
+        transparent 50px,
+        transparent 90px
+    );
+}
