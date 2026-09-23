@@ -145,6 +145,10 @@ img {
     margin:0;
 }
 
+.error{
+    color:red
+}
+
 h1, h2, h3 {
     color:var(--headings);
 }
