@@ -6,7 +6,7 @@ body {
     margin: 0;
     background-color: green;
 }
-
+/* used ai help for css art*/
 #road {
     width: 100%;
     height: 140px;
@@ -40,9 +40,6 @@ body {
     border-radius: 10px;
     position: absolute;
 
-    animation-name: drive;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
 }
 
 .car::before {
@@ -69,12 +66,3 @@ body {
     box-shadow: 55px 0 #555555;
 };
 
-@keyframes drive {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(100vw);
-    }
-}

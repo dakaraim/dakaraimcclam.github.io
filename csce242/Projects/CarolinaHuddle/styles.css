@@ -1004,3 +1004,662 @@ footer {
     }
 
 }
+
+
+
+/*HOF*/
+#hof-hero {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+#hof-hero img {
+    width: 100%;
+    height: 310px;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+/* HONORING GREATNESS */
+
+#hof-intro {
+    width: 80%;
+    max-width: 1000px;
+
+    margin: 30px auto;
+
+    text-align: center;
+}
+
+#hof-intro h1 {
+    margin: 0 0 15px;
+
+    font-size: 30px;
+}
+
+#hof-intro p {
+    margin: auto;
+
+    max-width: 900px;
+
+    font-size: 16px;
+
+    line-height: 1.5;
+
+    text-align: left;
+}
+
+
+
+#hof-members {
+    width: 80%;
+    max-width: 950px;
+
+    margin: 40px auto 60px;
+}
+
+#hof-title {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    background-color: #07131b;
+
+    border: 3px solid #00a9e0;
+
+    padding: 10px 20px;
+
+    margin-bottom: 15px;
+}
+
+#hof-title img {
+    width: 100px;
+    height: 75px;
+
+    object-fit: contain;
+}
+
+#hof-title div {
+    flex: 1;
+}
+
+#hof-title h2 {
+    margin: 0;
+
+    font-size: 30px;
+}
+
+#hof-title h2 span {
+    color: #00a9e0;
+}
+
+#hof-title p {
+    margin: 4px 0 0;
+
+    letter-spacing: 5px;
+
+    font-size: 11px;
+
+    color: #bcbcbc;
+}
+
+#hof-title button {
+    background-color: transparent;
+
+    color: white;
+
+    border: 2px solid #00a9e0;
+
+    border-radius: 20px;
+
+    padding: 10px 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+#hof-title button:hover {
+    background-color: #00a9e0;
+
+    color: black;
+}
+
+
+/* -------------------- */
+/* PLAYER GRID          */
+/* -------------------- */
+
+#hof-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 12px;
+}
+
+.hof-card {
+    background-color: #07131b;
+
+    border: 2px solid #00a9e0;
+
+    position: relative;
+
+    overflow: hidden;
+
+    min-height: 330px;
+}
+
+.hof-number {
+    position: absolute;
+
+    right: 10px;
+    top: 5px;
+
+    z-index: 2;
+
+    color: white;
+
+    font-size: 30px;
+
+    font-weight: bold;
+}
+
+
+/* PLAYER IMAGE */
+
+.hof-card img {
+    width: 100%;
+    height: 245px;
+
+    display: block;
+
+    object-fit: cover;
+
+    object-position: top;
+}
+
+
+/* PLAYER INFORMATION */
+
+.hof-info {
+    background-color: #08151e;
+
+    border-top: 2px solid #00a9e0;
+
+    padding: 10px 5px;
+
+    text-align: center;
+}
+
+.hof-info h3 {
+    margin: 0 0 4px;
+
+    font-size: 14px;
+}
+
+.hof-info p {
+    margin: 0 0 3px;
+
+    color: #bcbcbc;
+
+    font-size: 10px;
+}
+
+.hof-info span {
+    color: #00a9e0;
+
+    font-size: 10px;
+
+    font-weight: bold;
+}
+
+
+.hof-card:hover {
+    transform: translateY(-4px);
+
+    border-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #hof-hero img {
+        height: 220px;
+    }
+
+
+    #hof-intro {
+        width: 90%;
+    }
+
+    #hof-intro h1 {
+        font-size: 25px;
+    }
+
+
+    #hof-members {
+        width: 92%;
+    }
+
+
+    #hof-title {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    #hof-title h2 {
+        font-size: 24px;
+    }
+
+
+    #hof-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .hof-card img {
+        height: 220px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    #hof-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
+/*frame*/
+
+#forum-hero {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#forum-hero img {
+    width: 100%;
+    height: 280px;
+    display: block;
+    object-fit: cover;
+}
+
+
+/* FORUM LAYOUT */
+
+#forum-content {
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 25px auto 50px;
+
+    display: flex;
+    align-items: flex-start;
+
+    gap: 20px;
+}
+
+#forum-main {
+    flex: 1;
+}
+
+
+/* FORUM TABS */
+
+#forum-tabs {
+    display: flex;
+
+    width: 100%;
+
+    border: 2px solid #00a9e0;
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    margin-bottom: 10px;
+}
+
+#forum-tabs a {
+    flex: 1;
+
+    padding: 14px;
+
+    color: white;
+
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    border-right: 1px solid #00a9e0;
+}
+
+#forum-tabs a:last-child {
+    border-right: none;
+}
+
+#forum-tabs a:hover {
+    background-color: #008fc5;
+}
+
+#forum-tabs .active-tab {
+    background-color: #00a9e0;
+}
+
+
+/* -------------------- */
+/* EMPTY FORUM BOX      */
+/* -------------------- */
+
+#empty-forum {
+    min-height: 300px;
+
+    background-color: #07131b;
+
+    border: 2px solid #00a9e0;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+#conversation-icon {
+    color: #00a9e0;
+
+    font-size: 55px;
+
+    margin-bottom: 10px;
+}
+
+#empty-forum h2 {
+    margin: 5px 0;
+
+    color: white;
+
+    font-size: 25px;
+}
+
+#empty-forum p {
+    margin: 5px 0 20px;
+
+    color: #cccccc;
+
+    font-size: 15px;
+}
+
+#empty-forum button {
+    background-color: #00a9e0;
+
+    color: white;
+
+    border: none;
+    border-radius: 7px;
+
+    padding: 12px 30px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+#empty-forum button:hover {
+    background-color: #008fc5;
+}
+
+
+/* -------------------- */
+/* FORUM SIDEBAR        */
+/* -------------------- */
+
+#forum-sidebar {
+    width: 280px;
+
+    flex-shrink: 0;
+}
+
+
+/* CREATE POST BUTTON */
+
+#create-post {
+    width: 100%;
+
+    background-color: #00a9e0;
+
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 15px;
+
+    margin-bottom: 12px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+#create-post:hover {
+    background-color: #008fc5;
+}
+
+
+/* -------------------- */
+/* TOP CONTRIBUTORS     */
+/* -------------------- */
+
+#top-contributors {
+    background-color: #07131b;
+
+    border: 2px solid #00a9e0;
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+#top-contributors > h2 {
+    margin: 0;
+
+    padding: 15px;
+
+    color: white;
+
+    border-bottom: 2px solid #00a9e0;
+
+    font-size: 20px;
+}
+
+#top-contributors > h2 span {
+    color: #00a9e0;
+}
+
+
+/* BLANK CONTRIBUTORS AREA */
+
+#empty-contributors {
+    min-height: 245px;
+}
+
+
+/* -------------------- */
+/* MOBILE               */
+/* -------------------- */
+
+@media only screen and (max-width: 768px) {
+
+    #forum-hero img {
+        height: 220px;
+    }
+
+
+    #forum-content {
+        width: 95%;
+
+        flex-direction: column;
+    }
+
+
+    #forum-main {
+        width: 100%;
+    }
+
+
+    #forum-tabs a {
+        padding: 10px 5px;
+
+        font-size: 13px;
+    }
+
+
+    #empty-forum {
+        min-height: 250px;
+    }
+
+
+    #empty-forum h2 {
+        font-size: 21px;
+    }
+
+
+    #forum-sidebar {
+        width: 100%;
+    }
+
+
+    #empty-contributors {
+        min-height: 200px;
+    }
+}
+
+
+/*History*/
+
+#history-hero {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#history-hero img {
+    width: 100%;
+    height: 300px;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* HISTORY SECTION */
+
+.history-section {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 25px auto 40px;
+
+    text-align: center;
+}
+
+
+/* HISTORY HEADINGS */
+
+.history-section h1 {
+    margin: 0 0 20px;
+
+    color: white;
+
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+/* HISTORY PARAGRAPHS */
+
+.history-section p {
+    margin: 0 auto 25px;
+
+    color: white;
+
+    font-size: 16px;
+
+    line-height: 1.4;
+
+    text-align: left;
+}
+
+
+/* HISTORY IMAGES */
+
+.history-image {
+    width: 100%;
+    max-width: 500px;
+
+    height: auto;
+
+    display: block;
+
+    margin: 25px auto;
+
+    object-fit: contain;
+}
+
+
+/* SPACE BETWEEN SECTIONS */
+
+.history-section + .history-section {
+    margin-top: 25px;
+}
+
+
+/* -------------------- */
+/* MOBILE               */
+/* -------------------- */
+
+@media only screen and (max-width: 768px) {
+
+    #history-hero img {
+        height: 220px;
+    }
+
+    .history-section {
+        width: 92%;
+    }
+
+    .history-section h1 {
+        font-size: 28px;
+    }
+
+    .history-section p {
+        font-size: 14px;
+    }
+
+    .history-image {
+        width: 90%;
+        max-width: 400px;
+    }
+
+}
