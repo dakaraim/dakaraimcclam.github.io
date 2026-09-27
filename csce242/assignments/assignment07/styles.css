@@ -10,7 +10,7 @@ body {
 #road {
     width: 100%;
     height: 140px;
-    background-color: #353535;
+    background-color: #000000;
     position: relative;
     margin-top: 70px;
 
@@ -33,4 +33,48 @@ body {
         transparent 50px,
         transparent 90px
     );
+}
+.car {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+
+    animation-name: drive;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.car::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background-color:aliceblue;
+    top: -12px;
+    left: 23px;
+    border-radius: 8px 8px 3px 3px;
+
+}
+
+.car::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #555555;
+    border-radius: 50%;
+    bottom: -7px;
+    left: 10px;
+    box-shadow: 55px 0 #555555;
+};
+
+@keyframes drive {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100vw);
+    }
 }
