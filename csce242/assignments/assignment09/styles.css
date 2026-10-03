@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5ed90;
+    color: #3168b4;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #4e8791;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+header h2 {
+    color: #e78383;
+    font-size: 29px;
+    font-weight: normal;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+}
+
+#vacation-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.vacation-card {
+    background-color: #4969b1;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.vacation-card:hover {
+    transform: scale(1.02);
+}
+
+.vacation-card h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 14px 0;
+}
+
+.vacation-card p {
+    margin: 20px 0;
+}
+
+.vacation-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.55);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+
+    width: 70%;
+    max-width: 900px;
+
+    background-color: #dbeaff;
+
+    padding: 20px;
+
+    display: flex;
+    gap: 20px;
+}
+
+#close-modal {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+
+    border: none;
+    background: none;
+
+    font-size: 28px;
+    color: #315bb4;
+
+    cursor: pointer;
+}
+
+#modal-map {
+    width: 50%;
+}
+
+#modal-map iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+#modal-info {
+    width: 50%;
+    padding: 0 10px;
+}
+
+#modal-info h2 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+#modal-info p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    color: #4e8791;
+}
+
+@media (max-width: 900px) {
+
+    #vacation-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #vacation-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .modal-content {
+        width: 90%;
+        flex-direction: column;
+        max-height: 90px;
+        overflow-y: auto;
+    }
+
+    #modal-map,
+    #modal-info {
+        width: 100%;
+    }
+
+    #modal-map iframe {
+        height: 250px;
+    }
+
+}
