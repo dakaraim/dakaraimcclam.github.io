@@ -54,6 +54,7 @@ main > h2{
 #assignments, #projects, #repo{
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items:  stretch;
 }
@@ -61,6 +62,9 @@ main > h2{
 .assignment{
     background-color:#dbe5f5 ;
     padding: 15px 25px 25px;
+
+    flex: 1 1 250px;
+    max-width: 350px;
 }
 
 .assignment h3{
@@ -128,3 +132,5 @@ footer {
     }
 
 }
+
+
