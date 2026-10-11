@@ -2743,3 +2743,159 @@ game-info {
     font-size: 25px;
     font-weight: bold;
 }
+
+
+
+.css
+/* CLICKABLE HOF CARDS */
+
+.hof-card {
+    cursor: pointer;
+}
+
+.hof-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* PLAYER POPUP */
+
+.player-modal {
+    display: none;
+
+    position: fixed;
+    z-index: 1000;
+
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.85);
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.player-modal.show {
+    display: flex;
+}
+
+
+#player-modal-content {
+    width: 90%;
+    max-width: 700px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    background-color: #07131b;
+
+    border: 3px solid #00a9e0;
+    border-radius: 10px;
+
+    padding: 30px;
+}
+
+
+#modal-player-image {
+    width: 250px;
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 5px;
+}
+
+
+#modal-player-info {
+    flex: 1;
+}
+
+
+#modal-player-name {
+    color: white;
+    font-size: 30px;
+    margin: 0 0 15px;
+}
+
+
+#modal-player-number {
+    color: #00a9e0;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    margin: 5px 0;
+}
+
+
+#modal-player-position {
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#modal-player-years {
+    color: #00a9e0;
+    font-weight: bold;
+}
+
+
+#modal-player-description {
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+
+#close-player-modal {
+    position: absolute;
+
+    top: 10px;
+    right: 15px;
+
+    background: none;
+    border: none;
+
+    color: white;
+
+    font-size: 35px;
+
+    cursor: pointer;
+}
+
+#close-player-modal:hover {
+    color: #00a9e0;
+}
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 768px) {
+
+    #player-modal-content {
+        flex-direction: column;
+        text-align: center;
+
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    #modal-player-image {
+        width: 180px;
+        height: 220px;
+    }
+
+    #modal-player-name {
+        font-size: 25px;
+    }
+
+}

@@ -24,7 +24,9 @@
             </div>
 
         </div>
+
         <button id="menu-toggle">☰</button>
+
         <nav id="main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -81,169 +83,7 @@
             </div>
 
 
-            <div id="hof-grid">
-
-
-                <article class="hof-card">
-
-                    <div class="hof-number">89</div>
-
-                    <img src="images/stevesmith.png"
-                         alt="Steve Smith Sr.">
-
-                    <div class="hof-info">
-
-                        <h3>STEVE SMITH SR.</h3>
-
-                        <p>2001 - 2013</p>
-
-                        <span>WIDE RECEIVER</span>
-
-                    </div>
-
-                </article>
-
-
-                <article class="hof-card">
-
-                    <div class="hof-number">1</div>
-
-                    <img src="images/camnewton.png"
-                         alt="Cam Newton">
-
-                    <div class="hof-info">
-
-                        <h3>CAM NEWTON</h3>
-
-                        <p>2011 - 2019</p>
-
-                        <span>QUARTERBACK</span>
-
-                    </div>
-
-                </article>
-
-
-                <article class="hof-card">
-
-                    <div class="hof-number">59</div>
-
-                    <img src="images/lukekuechly.png"
-                         alt="Luke Kuechly">
-
-                    <div class="hof-info">
-
-                        <h3>LUKE KUECHLY</h3>
-
-                        <p>2012 - 2019</p>
-
-                        <span>LINEBACKER</span>
-
-                    </div>
-
-                </article>
-
-
-                <article class="hof-card">
-
-                    <div class="hof-number">90</div>
-
-                    <img src="images/juliuspeppers.png"
-                         alt="Julius Peppers">
-
-                    <div class="hof-info">
-
-                        <h3>JULIUS PEPPERS</h3>
-
-                        <p>2002 - 2009</p>
-
-                        <span>DEFENSIVE END</span>
-
-                    </div>
-
-                </article>
-
-
-                <article class="hof-card">
-
-                    <div class="hof-number">58</div>
-
-                    <img src="images/thomasdavissr.png"
-                         alt="Thomas Davis Sr.">
-
-                    <div class="hof-info">
-
-                        <h3>THOMAS DAVIS SR.</h3>
-
-                        <p>2005 - 2018</p>
-
-                        <span>LINEBACKER</span>
-
-                    </div>
-
-                </article>
-
-
-                <article class="hof-card">
-
-                    <div class="hof-number">34</div>
-
-                    <img src="images/deangelowilliams.png"
-                         alt="DeAngelo Williams">
-
-                    <div class="hof-info">
-
-                        <h3>DEANGELO WILLIAMS</h3>
-
-                        <p>2006 - 2014</p>
-
-                        <span>RUNNING BACK</span>
-
-                    </div>
-
-                </article>
-
-
-                <article class="hof-card">
-
-                    <div class="hof-number">67</div>
-
-                    <img src="images/jordangross.png"
-                         alt="Jordan Gross">
-
-                    <div class="hof-info">
-
-                        <h3>JORDAN GROSS</h3>
-
-                        <p>2003 - 2013</p>
-
-                        <span>OFFENSIVE TACKLE</span>
-
-                    </div>
-
-                </article>
-
-
-                <article class="hof-card">
-
-                    <div class="hof-number">88</div>
-
-                    <img src="images/gregolsen.png"
-                         alt="Greg Olsen">
-
-                    <div class="hof-info">
-
-                        <h3>GREG OLSEN</h3>
-
-                        <p>2011 - 2019</p>
-
-                        <span>TIGHT END</span>
-
-                    </div>
-
-                </article>
-
-            </div>
+            <div id="hof-grid"></div>
 
         </section>
 
@@ -289,7 +129,25 @@
             <a href="hof.html">HOF</a>
 
         </nav>
+<div id="player-modal" class="player-modal">
 
+    <div id="player-modal-content">
+
+        <button id="close-player-modal">&times;</button>
+
+        <img id="modal-player-image" src="" alt="">
+
+        <div>
+            <h2 id="modal-player-name"></h2>
+            <p id="modal-player-number"></p>
+            <p id="modal-player-position"></p>
+            <p id="modal-player-years"></p>
+            <p id="modal-player-description"></p>
+        </div>
+
+    </div>
+
+</div>
 
         <div id="copyright">
 
@@ -298,7 +156,11 @@
         </div>
 
     </footer>
-<script src="scripts/menutoggle.js"></script>
+
+
+    <script src="scripts/menutoggle.js"></script>
+    <script src="scripts/hof.js"></script>
+
 </body>
 
 </html>
